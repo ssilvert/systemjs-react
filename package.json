@@ -1,0 +1,32 @@
+{
+  "name": "systemjs-react",
+  "version": "1.0.0",
+  "description": "SystemJs-React Hello World",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --noImplicitAny --strictNullChecks --jsx react -p ./",
+    "build:watch": "tsc --noImplicitAny --strictNullChecks --jsx react -p ./ -w",
+    "server": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssilvert/systemjs-react.git"
+  },
+  "author": "Stan Silvert",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ssilvert/systemjs-react/issues"
+  },
+  "homepage": "https://github.com/ssilvert/systemjs-react#readme",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "systemjs": "^0.20.17"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "http-server": "^0.11.1",
+    "typescript": "^3.2.2"
+  }
+}
