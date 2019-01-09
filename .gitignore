@@ -8,3 +8,6 @@
 # ignore libraries
 node_modules
 node
+
+# Don't ignore these
+!systemjs.config.js
