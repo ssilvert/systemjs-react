@@ -1,6 +1,5 @@
 /**
- * System configuration for Angular samples
- * Adjust as necessary for your application needs.
+ * SystemJs configuration.
  */
 (function (global) {
   System.config({
