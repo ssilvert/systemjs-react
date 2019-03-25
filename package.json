@@ -19,13 +19,15 @@
   },
   "homepage": "https://github.com/ssilvert/systemjs-react#readme",
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "@patternfly/patternfly": "^1.0.248",
+    "@patternfly/react-core": "^2.10.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
     "systemjs": "^0.20.17"
   },
   "devDependencies": {
-    "@types/react": "^16.7.18",
-    "@types/react-dom": "^16.0.11",
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
     "http-server": "^0.11.1",
     "typescript": "^3.2.2"
   }

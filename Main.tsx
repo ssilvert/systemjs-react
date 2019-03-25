@@ -16,6 +16,7 @@
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import {Button} from '@patternfly/react-core';
 
 const e = React.createElement;
 
@@ -30,7 +31,10 @@ export class Main extends React.Component<MainProps> {
 
     render() {
         return (
+            <span>
             <div>Hello World</div>
+            <Button variant="primary">PF4-react Button</Button>
+            </span>
         );
     }
 };

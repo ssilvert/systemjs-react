@@ -9,12 +9,17 @@ and open the template in the editor.
         <title>SystemJs/React Hello World</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./node_modules/@patternfly/patternfly/patternfly.min.css">
+        <link rel="stylesheet" href="./node_modules/@patternfly/react-core/dist/styles/base.css">
+        
         <script src="./node_modules/systemjs/dist/system.src.js"></script>
         <script src="./systemjs.config.js"></script>
     </head>
     <body>
+        <button id="plainPF4Button" class="pf-c-button pf-m-primary" type="button">Plain PF4 Button</button>
         <div id="main_react_container"></div>
         <script>
+            //System.import('./node_modules/@patternfly/react-core/dist/umd/styles/gutters.js');
             System.import('./Main.js').catch(function (err) {
                 console.error(err);
             });
