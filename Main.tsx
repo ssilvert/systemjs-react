@@ -25,16 +25,15 @@ export interface MainProps {
 
 export class Main extends React.Component<MainProps> {
     
-    constructor(props: MainProps) {
+    public constructor(props: MainProps) {
         super(props);
     }
 
-    render() {
+    public render() {
         return (
-            <span>
-            <div>Hello World</div>
-            <Button variant="primary">PF4-react Button</Button>
-            </span>
+            <React.Fragment>
+                <Button variant="primary">PF4-react Button</Button>
+            </React.Fragment>
         );
     }
 };
