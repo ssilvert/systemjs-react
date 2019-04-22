@@ -6,7 +6,7 @@ There are two branches of interest in this project.
 
 **main:** Hello World for SystemJs and React
 
-**patternfly-react:**  Hello World for SystemJs, React, and PatterFly 4 with PF4 Components.
+**patternfly-react:**  Hello World for SystemJs, React, and PatterFly 4 with PF4 Components.  Please read comments in **systemjs.config.js**.
 
 ## Build and Run
 To build and run the project:
