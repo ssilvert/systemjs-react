@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/ssilvert/systemjs-react#readme",
   "dependencies": {
-    "@patternfly/patternfly": "^1.0.248",
-    "@patternfly/react-core": "^2.10.0",
+    "@patternfly/patternfly": "^2.6.11",
+    "@patternfly/react-core": "^3.16.10",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "systemjs": "^0.20.17"

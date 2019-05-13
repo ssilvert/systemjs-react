@@ -16,7 +16,7 @@
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import {Button} from '@patternfly/react-core';
+import {Button,Tabs,Tab} from '@patternfly/react-core';
 
 const e = React.createElement;
 
@@ -33,6 +33,18 @@ export class Main extends React.Component<MainProps> {
         return (
             <React.Fragment>
                 <Button variant="primary">PF4-react Button</Button>
+                <Tabs isFilled>
+                    <Tab eventKey={0} title="Tab item 1">
+                      Tab 1 section
+                    </Tab>
+                    <Tab eventKey={1} title="Tab item 2">
+                      Tab 2 section
+                    </Tab>
+                    <Tab eventKey={2} title="Tab item 3">
+                      Tab 3 section
+                    </Tab>
+                </Tabs>
+ 
             </React.Fragment>
         );
     }
