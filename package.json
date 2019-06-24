@@ -21,6 +21,7 @@
   "dependencies": {
     "@patternfly/patternfly": "^2.6.11",
     "@patternfly/react-core": "^3.16.10",
+    "@patternfly/react-table": "^2.13.21",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "systemjs": "^0.20.17"
