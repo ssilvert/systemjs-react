@@ -4,8 +4,8 @@
   "description": "SystemJs-React Hello World",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --noImplicitAny --strictNullChecks --jsx react -p ./",
-    "build:watch": "tsc --noImplicitAny --strictNullChecks --jsx react -p ./ -w",
+    "build": "tsc",
+    "build:watch": "tsc -w",
     "server": "http-server"
   },
   "repository": {
@@ -19,17 +19,18 @@
   },
   "homepage": "https://github.com/ssilvert/systemjs-react#readme",
   "dependencies": {
-    "@patternfly/patternfly": "^2.6.11",
-    "@patternfly/react-core": "^3.16.10",
-    "@patternfly/react-table": "^2.13.21",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "systemjs": "^0.20.17"
+    "@patternfly/patternfly": "^2.26.1",
+    "@patternfly/react-core": "^3.87.3",
+    "@patternfly/react-table": "^2.17.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "systemjs": "^5.0.0"
   },
   "devDependencies": {
-    "@types/react": "^16.8.8",
-    "@types/react-dom": "^16.8.2",
+    "@types/node": "^12.7.2",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.8.5",
     "http-server": "^0.11.1",
-    "typescript": "^3.2.2"
+    "typescript": "^3.5.3"
   }
 }
