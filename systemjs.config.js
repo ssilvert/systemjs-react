@@ -62,6 +62,7 @@
               './Dropdown': '@empty', //'./Dropdown/index.js',
               './EmptyState': '@empty', //'./EmptyState/index.js',
               './Expandable': '@empty', //'./Expandable/index.js',
+              './Flex': './Flex/index.js',
               './Form': '@empty', //'./Form/index.js',
               './FormSelect': '@empty', //'./FormSelect/index.js',
               './InputGroup': '@empty', //'./InputGroup/index.js',
@@ -70,6 +71,7 @@
               './LoginPage': '@empty', //'./LoginPage/index.js',
               './Modal': '@empty', //'./Modal/index.js',
               './Nav': '@empty', //'./Nav/index.js',
+              './NotificationBadge': './NotificationBadge/index.js',
               './OptionsMenu': '@empty', //./OptionsMenu/index.js',
               './Page': '@empty', //'./Page/index.js',
               './Popover': '@empty', //'./Popover/index.js',
@@ -93,6 +95,7 @@
               './Split': '@empty', //'./Split/index.js',
               './Stack': '@empty', //'./Stack/index.js',
               './Toolbar': '@empty', //'./Toolbar/index.js',
+              './withOuia': './withOuia/index.js'
           }
       },
       
@@ -114,6 +117,7 @@
           defaultExtension: 'js',
           map: {
               './Bullseye': '@empty', //'./Bullseye/index.js',
+              './Flex': './Flex/index.js',
               './Gallery': '@empty', //'./Gallery/index.js',
               './Level': '@empty', //'./Level/index.js',
               './Grid': '@empty', //'./Grid/index.js',

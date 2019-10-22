@@ -17,7 +17,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import {Button,Stack,StackItem, Tabs,Tab} from '@patternfly/react-core';
-import {Table} from '@patternfly/react-table';
 
 const e = React.createElement;
 
