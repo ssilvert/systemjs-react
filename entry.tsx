@@ -18,7 +18,6 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import {Button,Stack,StackItem, Tabs,Tab} from '@patternfly/react-core';
 
-const e = React.createElement;
 
 export interface MainProps {
 }
@@ -57,5 +56,7 @@ export class Main extends React.Component<MainProps> {
     }
 };
 
-const domContainer = document.querySelector('#main_react_container');
-ReactDOM.render(e(Main), domContainer);
+ReactDOM.render(
+    <Main />,
+    document.getElementById('main_react_container')
+);

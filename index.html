@@ -10,17 +10,34 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./node_modules/@patternfly/patternfly/patternfly.min.css">
-        <link rel="stylesheet" href="./node_modules/@patternfly/react-core/dist/styles/base.css">
-        
+        <link rel="stylesheet" href="./node_modules/@patternfly/patternfly/patternfly-addons.css">
+        <!-- import '@patternfly/patternfly/patternfly.css';
+        // Utilities
+        import '@patternfly/patternfly/patternfly-addons.css';
+        // Experimental components
+        import '@patternfly/patternfly/components/DataToolbar/data-toolbar.css';
+        import '@patternfly/patternfly/components/Divider/divider.css';
+        import '@patternfly/patternfly/components/Drawer/drawer.css';
+        import '@patternfly/patternfly/components/OverflowMenu/overflow-menu.css';
+        import '@patternfly/patternfly/components/Spinner/spinner.css';
+        // React-specific CSS
+        import '@patternfly/react-styles/src/css/components/Table/inline-edit.css';
+        import '@patternfly/react-styles/src/css/components/Tooltip/tippy.css';
+        import '@patternfly/react-styles/src/css/components/Tooltip/tippy-overrides.css';
+        import '@patternfly/react-styles/src/css/components/Topology/topology-controlbar.css';
+        import '@patternfly/react-styles/src/css/components/Topology/topology-side-bar.css';
+        import '@patternfly/react-styles/src/css/components/Topology/topology-view.css';
+        import '@patternfly/react-styles/src/css/layouts/Toolbar/toolbar.css'; -->
+
         <script src="./node_modules/systemjs/dist/system.src.js"></script>
         <script src="./systemjs.config.js"></script>
     </head>
     <body>
         <div id="main_react_container"></div>
         <script>
-            System.import('./Main.js').catch(function (err) {
-                console.error(err);
-            });
+            System
+                .import('entry.js')
+                .then(null, console.error.bind(console));
         </script>
     </body>
 </html>
